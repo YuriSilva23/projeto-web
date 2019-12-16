@@ -14,7 +14,7 @@ include("banco-produto.php");
 	$usado = $produto['usado'] ? "checked='checked'" :"";
 
 ?>
-	<h1>Alterando Produto</h1>
+	<h1>Modificando Produto</h1>
 <form action="altera-produto.php" method="post" name="form" ><br><br>
 	<input type="hidden" name="id" method="post" value="<?=$produto['id']?>">
 
